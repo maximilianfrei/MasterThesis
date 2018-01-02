@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_f9u7EO8jEee1D4gC5HT-Nw" entityName="Index_Server">
+  <assemblyContexts__ComposedStructure id="_2oHBQO8jEee1D4gC5HT-Nw" entityName="Assembly_TableSearch">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pcmPlanTraceOLAP.repository#_l4rX4O8VEee1D4gC5HT-Nw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_8gS8oO8jEee1D4gC5HT-Nw" entityName="Assembly_OrderBy">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pcmPlanTraceOLAP.repository#_jGrKUO8VEee1D4gC5HT-Nw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_ACFBUO8kEee1D4gC5HT-Nw" entityName="Assembly_Join">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pcmPlanTraceOLAP.repository#_dC2msO8VEee1D4gC5HT-Nw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_FuvCIO8kEee1D4gC5HT-Nw" entityName="Assembly_Aggregate">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pcmPlanTraceOLAP.repository#_ZudFcO8PEee1D4gC5HT-Nw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCSiAO8kEee1D4gC5HT-Nw" entityName="Assembly_ColumnSearch">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pcmPlanTraceOLAP.repository#_pu5bgO8VEee1D4gC5HT-Nw"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Cvt20O8lEee1D4gC5HT-Nw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_AzZUEO8lEee1D4gC5HT-Nw" assemblyContext_ProvidedDelegationConnector="_KCSiAO8kEee1D4gC5HT-Nw">
+    <innerProvidedRole_ProvidedDelegationConnector href="pcmPlanTraceOLAP.repository#_x0EL0O8VEee1D4gC5HT-Nw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__1Et0O8oEee1D4gC5HT-Nw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ACFBUO8kEee1D4gC5HT-Nw" providingAssemblyContext_AssemblyConnector="_2oHBQO8jEee1D4gC5HT-Nw">
+    <providedRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_5B-kAO8VEee1D4gC5HT-Nw"/>
+    <requiredRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_H4dQEO8WEee1D4gC5HT-Nw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_cgIkEO8pEee1D4gC5HT-Nw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_KCSiAO8kEee1D4gC5HT-Nw" providingAssemblyContext_AssemblyConnector="_8gS8oO8jEee1D4gC5HT-Nw">
+    <providedRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_-bbU8O8VEee1D4gC5HT-Nw"/>
+    <requiredRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_LexnwO8cEee1D4gC5HT-Nw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gvrtsO8pEee1D4gC5HT-Nw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_8gS8oO8jEee1D4gC5HT-Nw" providingAssemblyContext_AssemblyConnector="_FuvCIO8kEee1D4gC5HT-Nw">
+    <providedRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_-QPw8O8bEee1D4gC5HT-Nw"/>
+    <requiredRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_Up3TwO8bEee1D4gC5HT-Nw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hCHhgO8pEee1D4gC5HT-Nw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_FuvCIO8kEee1D4gC5HT-Nw" providingAssemblyContext_AssemblyConnector="_ACFBUO8kEee1D4gC5HT-Nw">
+    <providedRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_Ac8gwO8WEee1D4gC5HT-Nw"/>
+    <requiredRole_AssemblyConnector href="pcmPlanTraceOLAP.repository#_1Y9AIO8bEee1D4gC5HT-Nw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_AzZUEO8lEee1D4gC5HT-Nw" entityName="OperationProvidedRole1">
+    <providedInterface__OperationProvidedRole href="pcmPlanTraceOLAP.repository#_ZYcOoO8OEee1D4gC5HT-Nw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

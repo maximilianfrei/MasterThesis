@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_VaZX0O8mEee1D4gC5HT-Nw" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#/"/>
+  <system_Allocation href="pcmPlanTraceOLAP.system#_f9u7EO8jEee1D4gC5HT-Nw"/>
+  <allocationContexts_Allocation id="_vZn58O8mEee1D4gC5HT-Nw" entityName="Allocation_Assembly_TableSearch">
+    <resourceContainer_AllocationContext href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#_6e4zoO8lEee1D4gC5HT-Nw"/>
+    <assemblyContext_AllocationContext href="pcmPlanTraceOLAP.system#_2oHBQO8jEee1D4gC5HT-Nw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_vmNkcO8mEee1D4gC5HT-Nw" entityName="Allocation_Assembly_Aggregate">
+    <resourceContainer_AllocationContext href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#_6e4zoO8lEee1D4gC5HT-Nw"/>
+    <assemblyContext_AllocationContext href="pcmPlanTraceOLAP.system#_FuvCIO8kEee1D4gC5HT-Nw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_vx8TUO8mEee1D4gC5HT-Nw" entityName="Allocation_Assembly_ColumnSearch">
+    <resourceContainer_AllocationContext href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#_6e4zoO8lEee1D4gC5HT-Nw"/>
+    <assemblyContext_AllocationContext href="pcmPlanTraceOLAP.system#_KCSiAO8kEee1D4gC5HT-Nw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_v8IxIO8mEee1D4gC5HT-Nw" entityName="Allocation_Assembly_OrderBy">
+    <resourceContainer_AllocationContext href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#_6e4zoO8lEee1D4gC5HT-Nw"/>
+    <assemblyContext_AllocationContext href="pcmPlanTraceOLAP.system#_8gS8oO8jEee1D4gC5HT-Nw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_xKYF4O8mEee1D4gC5HT-Nw" entityName="Allocation_Assembly_Join">
+    <resourceContainer_AllocationContext href="pcmPlanTraceOLAP_ResourceEnvironment.resourceenvironment#_6e4zoO8lEee1D4gC5HT-Nw"/>
+    <assemblyContext_AllocationContext href="pcmPlanTraceOLAP.system#_ACFBUO8kEee1D4gC5HT-Nw"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
